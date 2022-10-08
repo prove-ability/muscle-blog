@@ -1,34 +1,28 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Muscle man!
 
-## Getting Started
+## 목표
 
-First, run the development server:
+최고의 운동 인증 SNS를 만들어보자!
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## 계획
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1. Step
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+- 근육의 단면도를 보여준다
+- 여러 근윤 부위에 마우스 호버가 가능(툴팁)
+- 클릭시 영상 페이지 이동
+  - 영상들은 유튜브에서 가져올 예정
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+2. Step
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+- 회원가입 및 로그인
+- 오을의 운동 완료 인증 페이지(오운완)
+  - 회원별 사진 올리기
+  - 댓글
+  - 캘린더 제공(인증 리스트)
 
-## Learn More
+## 스택
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Next.js
+- AWS Amplify
+- tailwind.js
